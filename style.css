@@ -37,6 +37,7 @@ section .question-container {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
+  transition: all 0.5s linear;
 }
 
 section .question-container .expand-more-icon {
@@ -50,8 +51,14 @@ section ul li {
 ul {
   list-style: none;
   display: none;
+  transition: all 2s linear;
 }
 
 main section ul.active {
   display: block;
+  transition: all 2s linear;
 }
+
+/* section {
+  border: 2px solid black;
+} */
